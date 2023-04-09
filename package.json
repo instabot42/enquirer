@@ -30,7 +30,7 @@
     "ansi-colors": "^4.1.1"
   },
   "devDependencies": {
-    "@types/node": "^8",
+    "@types/node": "^16",
     "gulp-format-md": "^2.0.0",
     "inquirer": "^9.1.5",
     "mocha": "^10.2.0",
