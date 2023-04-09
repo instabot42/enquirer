@@ -37,7 +37,7 @@
     "nyc": "^13.1.0",
     "prompts": "^1.2.1",
     "time-require": "github:jonschlinkert/time-require",
-    "typescript": "^3.1.6"
+    "typescript": "^5.0.4"
   },
   "keywords": [
     "answer",
