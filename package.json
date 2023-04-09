@@ -20,23 +20,15 @@
   ],
   "main": "index.js",
   "engines": {
-    "node": ">=8.6"
+    "node": ">=16"
   },
   "scripts": {
-    "test": "mocha && tsc -p ./test/types",
-    "cover": "nyc --reporter=text --reporter=html mocha"
-  },
-  "dependencies": {
-    "ansi-colors": "^4.1.1"
+    "test": "mocha && tsc -p ./test/types"
   },
   "devDependencies": {
     "@types/node": "^16",
     "gulp-format-md": "^2.0.0",
-    "inquirer": "^9.1.5",
     "mocha": "^10.2.0",
-    "nyc": "^13.1.0",
-    "prompts": "^2.4.2",
-    "time-require": "github:jonschlinkert/time-require",
     "typescript": "^5.0.4"
   },
   "keywords": [
@@ -107,5 +99,8 @@
       "inquirer",
       "prompt-skeleton"
     ]
+  },
+  "dependencies": {
+    "ansi-colors": "^4.1.3"
   }
 }
